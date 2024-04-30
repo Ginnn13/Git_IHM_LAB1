@@ -1,0 +1,1 @@
+<h2 className='text-center'>SERIES(por hacer)</h2>

@@ -10,10 +10,19 @@ const Header = () => {
         ONE PIECE</a>
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
-            <a className="nav-link active fw-bold" aria-current="page" href="#"> <i data-feather="home"></i>Inicio</a>
+            <a className="nav-link active fw-bold" aria-current="page" href="/"> <i data-feather="home"></i>Inicio</a>
           </li>
           <li className="nav-item fw-bold">
-            <a className="nav-link" href="#"><i data-feather="film"></i> Serie</a>
+            <a className="nav-link" href="/serie"><i data-feather="film"></i> Serie</a>
+          </li>
+          <li className="nav-item fw-bold">
+            <a className="nav-link" href="/pelicula"><i data-feather="video"></i> Peliculas</a>
+          </li>
+          <li className="nav-item fw-bold">
+            <a className="nav-link" href="/nosotro"><i data-feather="code"></i> Nosotros</a>
+          </li>
+          <li className="nav-item fw-bold">
+            <a className="nav-link" href="/pregunta"><i data-feather="help-circle"></i> FaQ</a>
           </li>
         </ul>
         <form className="d-flex" role="search">
