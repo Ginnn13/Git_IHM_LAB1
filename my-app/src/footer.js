@@ -1,16 +1,13 @@
 const Footer = () => {
-    return <footer>
+    return <footer className="bg-warning" >
         
-        <h3 className="text-center bg-warning">@2024-Gino Josue Guevara Villalobos
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-          <li className="nav-item">
+        <h4 className="text-center ">@2024-Gino Josue Guevara Villalobos</h4>
+        <div className="nav-item text-center">
             <a className="nav-link active fw-bold" aria-current="page" href="#"> <i data-feather="facebook"></i>Facebook</a>
-          </li>
-          <li className="nav-item fw-bold">
-            <a className="nav-link" href="#"><i data-feather="instagram"></i> Instagram</a>
-          </li>
-        </ul>
-         </h3>
+          </div>
+          <div className="nav-item text-center">
+            <a className="nav-link active fw-bold" href="#"><i data-feather="instagram"></i> Instagram</a>
+          </div>
     </footer>
 }
 export default Footer;
