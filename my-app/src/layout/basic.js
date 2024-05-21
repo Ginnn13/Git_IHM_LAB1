@@ -7,13 +7,13 @@ const Basic = () => {
     return (
         <>
             <StrictMode>
-                <Header />
+                <Header/>
                 <div className="container">
                     <div className="row py-5">
                         <Outlet></Outlet>
                     </div>
                 </div>
-                <Footer />
+                <Footer/>
             </StrictMode>
         </>
     );

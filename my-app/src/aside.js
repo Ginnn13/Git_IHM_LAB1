@@ -1,7 +1,7 @@
 
 const Aside =()=>{
     return <aside>
-        <h2 className="text-center">Aside</h2>
+        <h2 className="text-center"><i data-feather="arrow-down"></i>REGISTRATE</h2>
         <form >
   <div className="mb-3">
     <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
@@ -16,7 +16,7 @@ const Aside =()=>{
     <input type="checkbox" className="form-check-input" id="exampleCheck1" />
     <label className="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
-  <button type="submit" class="btn btn-primary"> <i data-feather="send"></i> Enviar</button>
+  <button type="submit" class="btn"> <i data-feather="send"></i> Enviar</button>
 </form>
         
     </aside>
